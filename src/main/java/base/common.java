@@ -10,8 +10,8 @@ public class common{
         appDriver.initializeDriver(emulator1UDID, emulator1PlatformVersion, portNumber1);
     }
     public static void setUpEmulator2() throws MalformedURLException {
-        String emulator2UDID = "R5CR10B55RK";
-        String emulator2PlatformVersion = "12";
+        String emulator2UDID = "emulator-5556";
+        String emulator2PlatformVersion = "11";
         String portNumber2 = "4724";
         appDriver.initializeDriver(emulator2UDID,emulator2PlatformVersion,portNumber2);
     }
